@@ -1,0 +1,20 @@
+5 6 11
+[5]
+[5, 6]
+The number 6 appears 1 time/s in list 'a' 
+[5, 6, 1]
+[5, 6, 1, 8, 9, 10]
+[1, 5, 6, 8, 9, 10]
+Before clearing list a, list b = [1, 5, 6, 8, 9, 10]
+After clearing list a the result is...
+List a = []
+List b = []
+The memory address of list a is: 140271363833536
+The memory address of list b is: 140271363833536
+[17]
+The memory address of list a is: 140271363833536
+The memory address of list b is: 140271363833536
+['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+[17]
+The memory address of list a is: 140271363917248
+The memory address of list b is: 140271363833536
