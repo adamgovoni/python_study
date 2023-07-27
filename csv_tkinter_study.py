@@ -26,7 +26,14 @@ def on_show_data():
 	# function to handle the "Show data" button click
 
 	# add your logic here for what should happen when the button is clicked
+	# to read a csv file into the terminal
+	# open file
+	with open('data.csv', 'r') as f:
+		reader = csv.reader(f)
 
+	# read file row by row
+	for row in reader:
+		print(row)
 	# displayed in terminal that the button was clicked
 	print("Show data button clicked!")
 
