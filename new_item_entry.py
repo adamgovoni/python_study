@@ -5,12 +5,12 @@ def new_item():
 	# function to handle the "New data" button click
 	
 	# add your logic here for what should happen when the button is clicked
-	def write_to_csv(filename, data):
+	def write_to_csv(filename, name, price, stock):
 
 		# open the csv file in write mode and append the data to it
 		with open(filename, 'a', newline='') as csvfile:
 			csv_writer = csv.writer(csvfile)
-			csv_writer.writerow(data)
+			csv_writer.writerow([name, price, stock])
 
 		confirmation = "Data has been written to the CSV file."
 		
@@ -21,13 +21,15 @@ def new_item():
 	file_name = "items.csv"
 	
 	# ask the user for input
-	user_data = input_box_name.get().split(',')
+	name = input_box_name.get()
+	price = input_box_price.get()
+	stock = input_box_stock.get()
 
 	# clear the input boxes
 	input_var_name.set('')
 	input_var_price.set('')
 	input_var_stock.set('')
-	write_to_csv(file_name, user_data)
+	write_to_csv(file_name, name, price, stock)
 
 def show_items():
 	# function to handle the "Show data" button click
@@ -35,7 +37,7 @@ def show_items():
 	# add your logic here for what should happen when the button is clicked
 	# to read a csv file
 	# open file
-	with open('items.csv', 'r') as f:
+	with open('items.csv', 'r',newline='') as f:
 		reader = csv.reader(f)
 
 		# clear text box for new data
@@ -43,11 +45,11 @@ def show_items():
 
 		# read file row by row
 		for row in reader:
-			text_box.insert(tk.END, row)
-
-		# displayed in terminal that the button was clicked
-		show_confirmation= "Show data button clicked!"
-		text_box.insert(tk.END, show_confirmation)
+			name, price, stock = row
+            
+			# Append each row as a new line to the textbox
+			text_box.insert(tk.END, f"Name: {name}\nPrice: {price}\nStock: {stock}\n\n")
+		
 
 if __name__ == "__main__":
 	# create the main window
