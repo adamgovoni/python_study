@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "grade_tracking.py", "grade_tracking.py\grade_tracking.py.pyproj", "{37C1A3A7-6D75-4648-89D2-844DB67BC136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37C1A3A7-6D75-4648-89D2-844DB67BC136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C1A3A7-6D75-4648-89D2-844DB67BC136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {413DD9D8-0E58-4E7C-99DA-AB9A7A4EFCDC}
+	EndGlobalSection
+EndGlobal
