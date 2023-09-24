@@ -98,37 +98,72 @@ questions = [
     },
     # matter questions
     {
-        "question": "",
+        "question": "the evaporation and subsequant collection of a liquid by condensation as a means of purification.",
         "options": [""],
         "answer": ""
     },
     {
-        "question": "",
+        "question": "the mass per unit valume of a substance commonly measured in grams per milliliter (g/ml) or grams per cubic centimeter (g/cm^3)",
         "options": [""],
         "answer": ""
     },
     {
-        "question": "",
+        "question": "a homo mixture or solid solution of two or more metals ,the atomsa of one replaceing or occupying interstitial positions between the atoms of the other: Brass in a alloy of zinc and copper",
         "options": [""],
         "answer": ""
     },
     {
-        "question": "",
+        "question": "uniform in struture or composition throughost. Homogeneous mixtures have atioms and molecules interspersed",
         "options": [""],
         "answer": ""
     },
     {
-        "question": "",
+        "question": "consisting of dissimilar parts. Hetergeneous mistures have distinguishable phases",
         "options": [""],
         "answer": ""
     },
     {
-        "question": "",
+        "question": "a composition of two or more substances that are not chemically combined with each other and are capable of being separated",
         "options": [""],
         "answer": ""
     },
     {
-        "question": "",
+        "question": "a homogeneous mixture of two or more substances, which may be solids,liquids,gases, or a combination of these ",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "a pure, macroscopically homogenous substances consisting of atoms or ions of two or more different elements in difinite proportions then can not be separated by physical means. A compound usually has properties unlike those of its constituent elements.",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "a sample of matter, either an element or a compound, that consists of only one component with definite physical and chemical properties and a sefinite composition.",
+        "options": [""]
+        "answer" : ""
+    },
+    {
+        "question": "a substance composed of atoms haveing an identical number of protons in each nucleus. Elements cannot be reduced to simpler substances by normal chemical means.",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "only peocess determind by the atomic and molecular composition and structure of the substances involved",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "any change not involving a change in the substances chimical identity. includes a change from one state (solis or liquid or gas) to another ithout a change in chemical composition",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "any of a chimicals properties that become evident during a chemial reactions, examples are reacivity and flammability",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "property of a compound that can change without involving a change in chemical composition, examples are the melting point and boiling point",
         "options": [""],
         "answer": ""
     }
