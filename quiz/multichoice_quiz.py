@@ -5,6 +5,7 @@ import random
 
 # Define your questions here
 questions = [
+    # scientific method questions
     {
         "question": "A method of research in which a problem is identified, relevant data are gathered, a hypothesis is formulated from these data, and the hypothesis is empirically tested: ",
         "options": ["A. Hypothesis Method", "B. Observation Method", "C. Experiment Method", "D. Scientific Method"],
@@ -46,7 +47,7 @@ questions = [
         "answer": "D"
     },
     {
-        "question": "Data described in terms of some quality or categorization that may be informal or may use ill-defined characteristics such aswarmth and flavor.",
+        "question": "Data described in terms of some quality or categorization that may be informal or may use ill-defined characteristics such as warmth and flavor.",
         "options": ["A. Qualitative data", "B. Quantitative data", "C. Significant figures", "D. Dimentional analysis"],
         "answer": "A"
     },
@@ -71,7 +72,7 @@ questions = [
         "answer": "B"
     },
     {
-        "question": "A measure of the average kinetic energy of the particles in a samle of matter, expressed in terms of units or degrees designated on a standard scale.",
+        "question": "A measure of the average kinetic energy of the particles in a sample of matter, expressed in terms of units or degrees designated on a standard scale.",
         "options": ["A. Matter", "B. Metric system", "C. Volume", "D. Temperature"],
         "answer": "D"
     },
@@ -94,8 +95,43 @@ questions = [
         "question": "All of the numbers in a measurement that are known to be accurate plus one that is uncertain.",
         "options": ["A. Scientific method", "B. Significant figures", "C. Metric system", "D. Volume"],
         "answer": "B"
+    },
+    # matter questions
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
+    },
+    {
+        "question": "",
+        "options": [""],
+        "answer": ""
     }
- 
     # Add more questions here
 ]
 
