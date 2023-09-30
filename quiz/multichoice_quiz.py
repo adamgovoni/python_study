@@ -99,8 +99,8 @@ questions = [
     # matter questions
     {
         "question": "the evaporation and subsequant collection of a liquid by condensation as a means of purification.",
-        "options": [""],
-        "answer": ""
+        "options": ["A. Purifying", "B. Vaporizing", "C. Distillation", "D. Preserving"],
+        "answer": "C"
     },
     {
         "question": "the mass per unit valume of a substance commonly measured in grams per milliliter (g/ml) or grams per cubic centimeter (g/cm^3)",
@@ -148,19 +148,19 @@ questions = [
         "answer": ""
     },
     {
-        "question": "only peocess determind by the atomic and molecular composition and structure of the substances involved",
-        "options": [""],
-        "answer": ""
+        "question": "any process determind by the atomic and molecular composition and structure of the substances involved",
+        "options": ["A. Property Change", "B. Chemical Change", "C. Chemistry", "D. Matter morphing"],
+        "answer": "B"
     },
     {
-        "question": "any change not involving a change in the substances chimical identity. includes a change from one state (solis or liquid or gas) to another ithout a change in chemical composition",
-        "options": [""],
-        "answer": ""
+        "question": "any change not involving a change in the substances chemical identity. Includes a change from one state (solid or liquid or gas) to another without a change in chemical composition",
+        "options": ["A. Property Change", "B. Metamorphosis", "C. Transforming", "D. Physical Change"],
+        "answer": "D"
     },
     {
-        "question": "any of a chimicals properties that become evident during a chemial reactions, examples are reacivity and flammability",
-        "options": [""],
-        "answer": ""
+        "question": "any of a chemical's properties that become evident during a chemical reaction, examples are reactivity and flammability",
+        "options": ["A. Chemical Property", "B. Styles", "C. Chemical Signatures", "D. Chemistry"],
+        "answer": "A"
     },
     {
         "question": "property of a compound that can change without involving a change in chemical composition, examples are the melting point and boiling point",
